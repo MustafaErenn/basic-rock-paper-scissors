@@ -1,0 +1,42 @@
+
+body{
+    
+    text-align: center;
+    background-color: white;
+    overflow-x: hidden;
+}
+.all{
+    display: flex;
+}
+.left{
+    width: 33%;
+    margin-top:40px;
+    
+}
+.right{
+    width: 33%;
+    margin-top:40px;
+    
+}
+.container{
+    width: 33%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.result{
+    color:crimson;
+    font-weight:bold;
+    padding: 5px;
+    display: inline-block;
+    
+}
+p{
+    color: white;
+    font-size: 35px;
+    text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+h3{
+    text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
