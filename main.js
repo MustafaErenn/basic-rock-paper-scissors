@@ -2,7 +2,6 @@ var playerWin=0;
 var pcWin=0;
 
 if(document.getElementById('playerCount').innerHTML==='Player Score : '){
-    console.log('olsana kocum');
     document.getElementById('resetButton').hidden = true;
 }
 
